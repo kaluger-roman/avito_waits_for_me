@@ -1,26 +1,40 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link,
+    Redirect,
+} from "react-router-dom";
+import {PAGE_PATHS} from './redux/Reducers/AppReducer'
+import {SearchInput} from "./components/componentsformainpage/SearchInput";
+import MainPageBlock from "./components/componentsformainpage/MainPageBlock";
+import {Paginator} from "./components/componentsformainpage/Paginator";
+import {ToHomePageButton} from "./components/RepositoryInfoPage/ToHomePageBtn";
+import {RepoCard} from "./components/RepositoryInfoPage/RepoCard";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <Router>
+            <div className="App">
+                <Switch>
+                    <Route exact path={PAGE_PATHS.HOME}>
+                        <SearchInput/>
+                        <MainPageBlock/>
+                        <Paginator/>
+                    </Route>
+                    <Route path={PAGE_PATHS.INFO+':name'}>
+                        <ToHomePageButton/>
+                        <RepoCard/>
+                    </Route>
+                    <Route path="*">
+                        <Redirect to={PAGE_PATHS.HOME}/>
+                    </Route>
+                </Switch>
+            </div>
+        </Router>
+    );
 }
 
 export default App;

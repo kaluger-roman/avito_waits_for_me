@@ -1,9 +1,187 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c41c7bd3-2a1c-4d57-b19d-17ff2c42a687" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RepositoryInfoPage/RepoCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RepositoryInfoPage/ToHomePageBtn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/componentsformainpage/MainPageBlock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/componentsformainpage/Paginator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/componentsformainpage/SearchInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/componentsformainpage/cardforMainPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/8643201bb419407c2653c20476c25e8c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icons8-широкая-стрелка-вправо-100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/imgonline-com-ua-Transparent-backgr-5bIwf3PBVn6OZDBB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/istockphoto-496110465-1024x1024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/MIDDLEWARES/ThrottleActionsMiddleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/Reducers/AppReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/Reducers/rootReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/SAGA/sagas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/StorageRedux.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/actiontypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="red_train" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1cxlAtbzYko4zKj7hLuEKcxLe2o" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\username\IdeaProjects\avito_waits_for_me\src\components\styles" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c41c7bd3-2a1c-4d57-b19d-17ff2c42a687" name="Default Changelist" comment="" />
+      <created>1591477984234</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591477984234</updated>
+      <workItem from="1591477992557" duration="3126000" />
+      <workItem from="1591532486931" duration="28191000" />
+      <workItem from="1591624363235" duration="1089000" />
+      <workItem from="1591625481314" duration="72000" />
+      <workItem from="1591625664047" duration="675000" />
+      <workItem from="1591626424384" duration="263000" />
+      <workItem from="1591626763467" duration="194000" />
+      <workItem from="1591628153475" duration="138000" />
+      <workItem from="1591629572538" duration="25767000" />
+      <workItem from="1591686742769" duration="9120000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="УРААА" />
+    <option name="LAST_COMMIT_MESSAGE" value="УРААА" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/RepositoryInfoPage/RepoCard.js</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/RepositoryInfoPage/RepoCard.js</url>
+          <line>48</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
