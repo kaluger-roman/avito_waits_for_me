@@ -17,7 +17,7 @@ function* needGetContributorsWorker(action) {
         let response=yield fetch(action.payload, {
             method: 'GET',
             headers: {
-                Authorization: "token fd998ae7a8b5ce42afae78b0b7b94e204ff14f62"
+                Authorization: "token 1c302224de211bceea7c2894333520667f7b5ed5"
             },
         });
         let contributors=yield response.json();
@@ -41,7 +41,7 @@ function* sagaFindReposWorker(action) {
         const response = yield fetch(fetchURL,{
            method:"GET",
            headers:{
-               Authorization: "token fd998ae7a8b5ce42afae78b0b7b94e204ff14f62"
+               Authorization: "token 1c302224de211bceea7c2894333520667f7b5ed5"
            }
         });
         if (response.ok) {
