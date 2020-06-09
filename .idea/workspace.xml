@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c41c7bd3-2a1c-4d57-b19d-17ff2c42a687" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/SAGA/sagas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/SAGA/sagas.js" afterDir="false" />
-    </list>
+    <list default="true" id="c41c7bd3-2a1c-4d57-b19d-17ff2c42a687" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +118,7 @@
       <workItem from="1591629572538" duration="25767000" />
       <workItem from="1591686742769" duration="9957000" />
       <workItem from="1591699680765" duration="258000" />
-      <workItem from="1591700841799" duration="24000" />
+      <workItem from="1591700841799" duration="309000" />
     </task>
     <task id="LOCAL-00001" summary="УРААА">
       <created>1591696940944</created>
@@ -137,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591699741774</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="УРАААА">
+      <created>1591700903780</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591700903780</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
