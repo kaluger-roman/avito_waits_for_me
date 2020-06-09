@@ -20,7 +20,7 @@ export default function MainPageBlock(props) {
         <React.Fragment>
             <div className={'MainPageDashBoard'}>
                 {TotalResultCount === 0
-                    ?<div className={'NotFoundNotification'}>УПС, ТУТ ВАРИАНТА ДВА: <br/>1) НЕ НАЙДЕНО (ВВЕДИТЕ ВЕРНОЕ ИМЯ)	<br/>2) ПРЕВЫШЕНО КОЛИЧЕСТВО ЗАПРОСОВ В МИНУТУ(>30), ПРИДЕТСЯ ПОДОЖДАТЬ</div>
+                    ?<div className={'NotFoundNotification'}>УПС, ТУТ ВАРИАНТА ДВА: <br/>1) НЕ НАЙДЕНО (ВВЕДИТЕ ВЕРНОЕ ИМЯ)	<br/>2) ПРЕВЫШЕНО КОЛИЧЕСТВО НЕАВТОРИЗОВАННЫХ ЗАПРОСОВ В МИНУТУ(>10), ПРИДЕТСЯ ПОДОЖДАТЬ</div>
                     :<div className={'SingleDashboardPage'}>{ret}</div>
                 }
             </div>

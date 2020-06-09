@@ -16,9 +16,9 @@ function* needGetContributorsWorker(action) {
     if (action.payload) {
         let response=yield fetch(action.payload, {
             method: 'GET',
-            headers: {
+           /* headers: {
                 Authorization: "token 1c302224de211bceea7c2894333520667f7b5ed5"
-            },
+            },*/
         });
         let contributors=yield response.json();
 
@@ -40,9 +40,9 @@ function* sagaFindReposWorker(action) {
     const fetchURL=`https://api.github.com/search/repositories?q=${repoName?`${repoName}+in:name`:'stars:>1000'}&sort=stars&order=desc&per_page=10&page=${repoName?requirePaginationPage:1}`;
         const response = yield fetch(fetchURL,{
            method:"GET",
-           headers:{
+           /*headers:{
                Authorization: "token 1c302224de211bceea7c2894333520667f7b5ed5"
-           }
+           }*/
         });
         if (response.ok) {
             const json = yield response.json();
