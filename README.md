@@ -1,5 +1,6 @@
-##ДЕМО
+### ДЕМО
 http://w91805ni.beget.tech/
+### Гитхаб отзывает токен авторизации API, так как он выложен в коде репозитория, поэтому максимальное количество запросов в минуту 10(как для неавторизованного пользователя)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
